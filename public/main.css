@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'GT-America-Mono-Trial-Regular';
+	src: url('assets/GT-America-Mono-Trial-Regular.otf') format('opentype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'GT-America-Mono-Trial-Light';
+	src: url('assets/GT-America-Mono-Trial-Light.otf') format('opentype');
+	font-style: normal;
+	font-weight: light;
+}
+
+body {
+	font-family: 'GT-America-Mono-Trial-Regular';
+	font-style: normal;
+	font-weight: normal;
+	background-color: #fcf5ed;
+	color: #0097c3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	max-width: 400px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	font-family: 'GT-America-Mono-Trial-Light';
+	font-style: lighter;
+}
