@@ -13,9 +13,6 @@
 }
 
 body {
-	font-family: 'GT-America-Mono-Trial-Regular';
-	font-style: normal;
-	font-weight: normal;
 	background-color: #fcf5ed;
 	color: #0097c3;
 	display: flex;
@@ -29,10 +26,17 @@ body {
 }
 
 h1 {
+	font-family: 'GT-America-Mono-Trial-Regular';
+	font-weight: normal;
 	text-align: center;
 }
 
 p {
 	font-family: 'GT-America-Mono-Trial-Light';
-	font-style: lighter;
+	font-weight: lighter;
+}
+
+.users {
+	background-color: #0097c3;
+	color: #fcf5ed;
 }
